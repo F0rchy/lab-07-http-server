@@ -1,5 +1,5 @@
-#include <example.hpp>
+#include "example.hpp"
 
-int main() {
-  example();
+int main(int argc, char* argv[]) {
+  go_useful_server(argc, argv);
 }
